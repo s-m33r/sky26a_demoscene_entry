@@ -3,7 +3,7 @@ project:
   title:        "Weird Numbers"      # Project title
   author:       "Sameer Srivastava"      # Your name
   discord:      "l1zard"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "Numbers display inspired by the MDR workstations from Severance"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -35,14 +35,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "HSYNC"
+  uo[1]: "B[0]"
+  uo[2]: "G[0]"
+  uo[3]: "R[0]"
+  uo[4]: "VSYNC"
+  uo[5]: "B[1]"
+  uo[6]: "G[1]"
+  uo[7]: "R[1]"
 
   # Bidirectional pins
   uio[0]: ""
