@@ -12,7 +12,7 @@ function [15:0] lfsr_next;
   end
 endfunction
 
-module tt_um_example (
+module tt_um_weird_numbers (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
